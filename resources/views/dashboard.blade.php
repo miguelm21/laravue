@@ -29,8 +29,8 @@
 				</tr>
 			</tbody>
 		</table>
-		@include('create')
-		@include('edit')
+		@include('create', ['title' => 'CrearTarea', 'label' => 'crear TAREA','id' => 'create', 'method' => 'POST', 'func' => 'createKeep', 'vmodel' => 'newKeep', 'buttonvalue' => 'Guardar'])
+		@include('create', ['title' => 'EditarTarea', 'label' => 'editar TAREA','id' => 'edit', 'method' => 'PUT', 'func' => 'updateKeep(fillKeep.id)', 'vmodel' => 'fillKeep.keep', 'buttonvalue' => 'Actualizar'])
 	</div>
 	<div class="col-sm-5">
 		<pre>

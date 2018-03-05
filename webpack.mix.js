@@ -19,7 +19,13 @@ mix.scripts([
 	'resources/assets/js/axios.js',
 	'resources/assets/js/app.js',
 	], 'public/js/app.js')
+.sass(
+	'resources/assets/sass/main.scss',
+	'resources/assets/css/main.css'
+)
 .styles([
+	'resources/assets/css/normalize.css',
 	'resources/assets/css/bootstrap.css',
 	'resources/assets/css/toastr.css',
+	'public/resources/assets/css/main.css'
 ], 'public/css/app.css');
