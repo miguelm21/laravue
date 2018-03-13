@@ -12,13 +12,13 @@ $('#iconified').on('keyup', function() {
 // Second Carousel
 $('#slider-carousel').owlCarousel({
   loop: true,
-  margin: 15,
+  margin: 50,
   dots: true,
   nav: false,
   responsiveClass: true,
   responsive: {
     0: {
-      items: 2,
+      items: 1.5,
       margin: 10,
       stagePadding: 20,
     },

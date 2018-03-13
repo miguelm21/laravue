@@ -4,10 +4,10 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 input.empty {
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
 }
 
 .circle-buttom{
@@ -18,8 +18,8 @@ input.empty {
 }
 
 .circle-buttom:hover{
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 
 }
 
@@ -48,7 +48,6 @@ input.empty {
 /* |||||||||||||||||||| Navbar |||||||||||||||||||||*/
 
 .nav-config{
-	padding: 5px 8%;
 	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 
 }
@@ -66,15 +65,24 @@ input.empty {
 	color: #fff;
 }
 
-.nav-item > button{
-	 margin-top: 4px;
-	 border-color: #fff;
-	 background: transparent;
+.btn-login{
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: .3s;
 }
-.nav-item > button:hover{
+.btn-login:hover{
 	background: #fff;
 	border-color: #2cb5e8;
 	color: #2cb5e8;
+    text-decoration: none;
+}
+
+.form-search-edit{
+  width: 150px;
 }
 
 /*code star*/
@@ -109,36 +117,26 @@ input.empty {
 
 
 /* |||||||||||||||||||| First Carousel |||||||||||||||||||||*/
-
-.img-carousel{
-	max-height: 600px;
+.hero-section {
+  background: url("../img/images.jpg") 50% no-repeat;
+  background-size: 100% 100%;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.carousel-caption{
-	right: auto;
-	top: 100px;
-	left: 10%;
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
 }
-
-.title-carousel{
-	font-family: 'Poppins', sans-serif;
-	color: #fff;
-	text-shadow: .5px .5px .5px blue;
-	font-size: 3.3em;
-}
-
-.position-buttom{
-	position: absolute;
-	left: 15%;
-	right: 15%;
-	bottom: -30px;
-	text-align: center;
-}
-
-.position-buttom  button{
-	padding: 1.375em 2.75em;
-}
-
 
 /* |||||||||||||||||||| Second Carousel |||||||||||||||||||||*/
 
@@ -291,8 +289,8 @@ input.empty {
 }
 
 .padding-button{
-   padding: 15px 0 !important;
-   background-color: #2CB5E8;
+ padding: 15px 0 !important;
+ background-color: #2CB5E8;
 }
 
 #blue{
@@ -417,8 +415,8 @@ input.empty {
 
 .border-closest2{
   border-top: 1px solid #2CB5E8;
-   border-left: 1px solid #2CB5E8;
-   border-bottom: 1px solid #2CB5E8;
+  border-left: 1px solid #2CB5E8;
+  border-bottom: 1px solid #2CB5E8;
 }
 
 
@@ -427,15 +425,15 @@ input.empty {
 
 
 #panel, #flip {
-    padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
 }
 
 #panel {
-    padding: 50px;
-    display: none;
+  padding: 50px;
+  display: none;
 }
 
 /*||||||||||||||||||| Footer |||||||||||||||||||||||*/
@@ -446,10 +444,10 @@ input.empty {
 }
 
 .social-footer{
-    color: #fff;
-    padding: 15px;
-    font-size: 20px;
-    transition: 0.5s;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  transition: 0.5s;
 }
 
 .social-footer:hover{
@@ -459,7 +457,14 @@ input.empty {
 
 @media screen and (min-width: 1501px) and (max-width: 1920px) {
 
-/*||||||||||||||||||| Index |||||||||||||||||||||||*/
+  /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
+
+  .align-social{
+   float:right;
+  }
+
+
+  /*||||||||||||||||||| Index |||||||||||||||||||||||*/
   .nav-config{
     padding: 8px 18.5% !important
   }
@@ -469,18 +474,26 @@ input.empty {
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
 
-/*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
-    .nav-config{
-    padding: 8px 5.5% !important;
-  }
+  /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
 
+
+  .align-social{
+   float:right;
+  }
 
 }
 
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
-/*||||||||||||||||||| Franchise |||||||||||||||||||||||*/
+  /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
+
+
+  .align-social{
+   float:right;
+  }
+
+  /*||||||||||||||||||| Franchise |||||||||||||||||||||||*/
   
   .box-description2{
     height: 60px;
@@ -490,10 +503,26 @@ input.empty {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-/*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
-	.nav-config{
-		padding: 8px 8%;
-	}
+  /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
+
+
+
+  .align-social{
+   float:none;
+   margin: 0 auto;
+   width: 165px;
+  }
+  /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
+
+  .hero-image{o
+    height: 50%;
+  }
+
+
+  /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
+  .nav-config{
+    padding: 8px 8%;
+  }
 
   /*||||||||||||||||||| Closest benefits |||||||||||||||||||||||*/
 
@@ -510,10 +539,24 @@ input.empty {
 
 @media screen and (min-width: 520px) and (max-width: 767px) {
 
-/*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
-	.nav-config{
-		padding: 8px 8%;
-	}
+
+ 
+  .align-social{
+   float:none;
+   margin: 0 auto;
+   width: 165px;
+  }
+  /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
+
+  .hero-image{
+    height: 50%;
+  }
+
+
+  /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
+  .nav-config{
+    padding: 8px 8%;
+  }
   .edit-carousel{
     height: auto;
   }
@@ -537,10 +580,25 @@ input.empty {
 }
 @media screen and (min-width: 401px) and (max-width: 520px) {
 
-/*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
-	.nav-config{
-		padding: 8px 8%;
-	}
+
+
+  .align-social{
+   float:none;
+   margin: 0 auto;
+   width: 165px;
+  }
+
+  /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
+
+  .hero-image{
+    height: 45%;
+  }
+
+
+  /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
+  .nav-config{
+    padding: 8px 8%;
+  }
   .edit-carousel{
     height: auto;
   }
@@ -566,10 +624,22 @@ input.empty {
 
 @media only screen and (max-width: 400px) {
 
-/*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
-	.nav-config{
-		padding: 8px 8%;
-	}	
+  .align-social{
+   float:none;
+   margin: 0 auto;
+   width: 165px;
+  }
+
+  /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
+
+  .hero-image{
+    height: 45%;
+  }
+
+  /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
+  .nav-config{
+    padding: 8px 8%;
+  }	
   .size{
     height: 220px;
   }
@@ -583,7 +653,7 @@ input.empty {
   .edit-card{
     min-height: auto;
   }
-/*||||||||||||||||||| Closest benefits |||||||||||||||||||||||*/
+  /*||||||||||||||||||| Closest benefits |||||||||||||||||||||||*/
 
   .border-closest{
     border: none;
