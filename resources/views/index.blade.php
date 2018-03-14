@@ -10,8 +10,8 @@
 	<title>Club de Beneficios</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css') }}">
-<!-- 	<link rel="stylesheet" href="{{ asset('owlcarousel/owl.carousel.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('owlcarousel/owl.theme.default.min.css') }}">  -->
+	<link rel="stylesheet" href="{{ asset('owlcarousel/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('owlcarousel/owl.theme.default.min.css') }}"> 
 	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<script src="{{ asset('js/js/fontawesome-all.min.js') }}"></script>
 </head>
@@ -455,6 +455,52 @@
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script><script src="https://use.fontawesome.com/7886bdfbdc.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-<!-- <script src="{{ asset('owlcarousel/owl.carousel.js') }}"></script>
- --><script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('owlcarousel/owl.carousel.js') }}"></script>
+<script src="{{ asset('owlcarousel/owl.carousel.min.js') }}"></script>
+<!-- <script type="text/javascript" src="{{ asset('js/main.js') }}"></script> -->
+<script type="text/javascript">
+    // Second Carousel
+	$('#slider-carousel').owlCarousel({
+	  loop: true,
+	  margin: 50,
+	  dots: true,
+	  nav: false,
+	  responsiveClass: true,
+	  responsive: {
+	    0: {
+	      items: 1.5,
+	      margin: 10,
+	      stagePadding: 20,
+	    },
+	    600: {
+	      items: 3,
+	      margin: 20,
+	      stagePadding: 50,
+	    },
+	    1000: {
+	      items: 5
+	    }
+	  }
+	});
+
+	$("#owl-carousel2").owlCarousel({
+	items: 4,
+	margin: 30,
+	responsive: {
+	  0: {
+	    items: 1,
+	    margin: 10,
+	    stagePadding: 20,
+	  },
+	  600: {
+	    items: 2,
+	    margin: 20,
+	    stagePadding: 50,
+	  },
+	  1000: {
+	    items: 4
+	  }
+	}
+	});
+</script>
 </html>
