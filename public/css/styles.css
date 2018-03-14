@@ -24,13 +24,13 @@ input.empty {
 }
 
 .nopadding{
-	padding-right: 0 !important;
-	padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 .btn-edit-blue{
-	color: #fff;
-	background: #2CB5E8; 
+  color: #fff;
+  background: #2CB5E8; 
   border: 2px solid #2CB5E8;
 }
 
@@ -48,41 +48,35 @@ input.empty {
 /* |||||||||||||||||||| Navbar |||||||||||||||||||||*/
 
 .nav-config{
-	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 .navbar-toggler{
-	color: #fff;
+  color: #fff;
+}
+
+.searh-navbar{
+  width: 30%;
+}
+
+.btn-edit-login{
+  margin-top: 4px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #FFF !important;
+  transition: .3s;
+  border-radius: 20px;
+  padding: 5px 35px;
+
+}
+.btn-edit-login:hover{
+  background: #fff;
+  border-color: #2cb5e8;
+  color: #2cb5e8 !important;
 }
 
 .nav-link{
-	color: #fff;
-}
-
-.nav-link:hover{
-	text-decoration: none;
-	color: #fff;
-}
-
-.btn-login{
-  border: 2px solid #fff;
-  background: transparent;
-  border-radius: 20px;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-  transition: .3s;
-}
-.btn-login:hover{
-	background: #fff;
-	border-color: #2cb5e8;
-	color: #2cb5e8;
-    text-decoration: none;
-}
-
-.form-search-edit{
-  width: 150px;
+  color: #fff !important;
 }
 
 /*code star*/
@@ -95,7 +89,7 @@ input.empty {
 
 }
 .rating{
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .star,
@@ -118,8 +112,8 @@ input.empty {
 
 /* |||||||||||||||||||| First Carousel |||||||||||||||||||||*/
 .hero-section {
-  background: url("../img/images.jpg") 50% no-repeat;
-  background-size: 100% 100%;
+  background: url("../img/Koala.jpg") 50% no-repeat;
+  background-size: cover;
   height: 60vh;
   text-align: center;
   display: -webkit-flex;
@@ -143,13 +137,13 @@ input.empty {
 /* Carousel */
 
 .box-title{
-	min-height: 52px;
+  min-height: 52px;
 }
 
 .box-description{
-	max-height: 240px;
-	height: 105px;
-	overflow-y: auto;
+  max-height: 240px;
+  height: 105px;
+  overflow-y: auto;
 }
 
 .owl-carousel .carousel-item {
@@ -239,13 +233,13 @@ input.empty {
 }
 
 .item h5 {
-	word-wrap: break-word;
+  word-wrap: break-word;
   padding: 3px;
 }
 
 .box-description p{
-	word-wrap: break-word;
-	margin: 0;
+  word-wrap: break-word;
+  margin: 0;
   padding: 3px;
 } 
 
@@ -459,27 +453,14 @@ input.empty {
 
   /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
 
-  .align-social{
-   float:right;
-  }
-
 
   /*||||||||||||||||||| Index |||||||||||||||||||||||*/
-  .nav-config{
-    padding: 8px 18.5% !important
-  }
-
 
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1500px) {
 
   /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
-
-
-  .align-social{
-   float:right;
-  }
 
 }
 
@@ -488,10 +469,6 @@ input.empty {
 
   /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
 
-
-  .align-social{
-   float:right;
-  }
 
   /*||||||||||||||||||| Franchise |||||||||||||||||||||||*/
   
@@ -506,15 +483,9 @@ input.empty {
   /*||||||||||||||||||| Navbar |||||||||||||||||||||||*/
 
 
-
-  .align-social{
-   float:none;
-   margin: 0 auto;
-   width: 165px;
-  }
   /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
 
-  .hero-image{o
+  .hero-image{
     height: 50%;
   }
 
@@ -540,12 +511,6 @@ input.empty {
 @media screen and (min-width: 520px) and (max-width: 767px) {
 
 
- 
-  .align-social{
-   float:none;
-   margin: 0 auto;
-   width: 165px;
-  }
   /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
 
   .hero-image{
@@ -554,9 +519,7 @@ input.empty {
 
 
   /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
-  .nav-config{
-    padding: 8px 8%;
-  }
+
   .edit-carousel{
     height: auto;
   }
@@ -580,14 +543,7 @@ input.empty {
 }
 @media screen and (min-width: 401px) and (max-width: 520px) {
 
-
-
-  .align-social{
-   float:none;
-   margin: 0 auto;
-   width: 165px;
-  }
-
+  
   /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
 
   .hero-image{
@@ -596,9 +552,7 @@ input.empty {
 
 
   /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
-  .nav-config{
-    padding: 8px 8%;
-  }
+
   .edit-carousel{
     height: auto;
   }
@@ -624,10 +578,8 @@ input.empty {
 
 @media only screen and (max-width: 400px) {
 
-  .align-social{
-   float:none;
-   margin: 0 auto;
-   width: 165px;
+  .searh-navbar{
+    width: 75%;
   }
 
   /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
@@ -637,9 +589,7 @@ input.empty {
   }
 
   /*||||||||||||||||||| Benefits |||||||||||||||||||||||*/
-  .nav-config{
-    padding: 8px 8%;
-  }	
+
   .size{
     height: 220px;
   }
