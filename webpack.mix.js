@@ -11,21 +11,33 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.scripts([
-	'resources/assets/js/jquery.js',
-	'resources/assets/js/bootstrap.js',
-	'resources/assets/js/toastr.js',
-	'resources/assets/js/vue.js',
+ /*
+ move this into the script when using VUE:
+'resources/assets/js/vue.js',
 	'resources/assets/js/axios.js',
 	'resources/assets/js/app.js',
+
+ */
+
+mix.scripts([
+	'resources/assets/js/jquery.js',
+	'resources/assets/js/fontawesome-all.min.js',
+	'resources/assets/js/fontawesome.js',
+	'resources/assets/js/owl.carousel.js',
+	'resources/assets/js/tether.js',
+	'resources/assets/js/bootstrap.js',
+	'resources/assets/js/toastr.js',
+	'resources/assets/js/main.js'
 	], 'public/js/app.js')
 .sass(
 	'resources/assets/sass/main.scss',
-	'resources/assets/css/main.css'
+	'../resources/assets/css/main.css'
 )
 .styles([
 	'resources/assets/css/normalize.css',
 	'resources/assets/css/bootstrap.css',
 	'resources/assets/css/toastr.css',
-	'public/resources/assets/css/main.css'
+	'resources/assets/css/owl.carousel.min.css',
+	'resources/assets/css/owl.theme.default.min.css',
+	'resources/assets/css/main.css'
 ], 'public/css/app.css');

@@ -1,9 +1,4 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-<script src="https://use.fontawesome.com/7886bdfbdc.js"></script>
-<script src="{{ asset('owlcarousel/owl.carousel.js') }}"></script>
-<script src="{{ asset('owlcarousel/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('js/js/fontawesome-all.min.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 
 <script type="text/javascript">
     // Second Carousel

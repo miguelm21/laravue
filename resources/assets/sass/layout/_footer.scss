@@ -1,0 +1,19 @@
+.footer {
+    &-edit {
+        background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+        padding: 15px;
+        border: 0;
+    }
+
+    &-social {
+        color: #fff;
+        padding: 15px;
+        font-size: 20px;
+        transition: 0.5s;
+
+        &:hover {
+            color:#000;
+        }
+    }
+}
+  

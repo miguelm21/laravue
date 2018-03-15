@@ -1,22 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
-body {
-  font-family: 'Poppins', sans-serif !important;
-}
 input.empty {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
 }
-
 .circle-buttom{
   text-decoration: none;
   color: #fff;
 
 
 }
-
 .circle-buttom:hover{
   text-decoration: none;
   color: #fff;
@@ -47,37 +40,7 @@ input.empty {
 
 /* |||||||||||||||||||| Navbar |||||||||||||||||||||*/
 
-.nav-config{
-  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-}
 
-.navbar-toggler{
-  color: #fff;
-}
-
-.searh-navbar{
-  width: 30%;
-}
-
-.btn-edit-login{
-  margin-top: 4px;
-  border: 2px solid #fff;
-  background: transparent;
-  color: #FFF !important;
-  transition: .3s;
-  border-radius: 20px;
-  padding: 5px 35px;
-
-}
-.btn-edit-login:hover{
-  background: #fff;
-  border-color: #2cb5e8;
-  color: #2cb5e8 !important;
-}
-
-.nav-link{
-  color: #fff !important;
-}
 
 /*code star*/
 
@@ -428,24 +391,6 @@ input.empty {
 #panel {
   padding: 50px;
   display: none;
-}
-
-/*||||||||||||||||||| Footer |||||||||||||||||||||||*/
-.footer-edit{
-  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-  padding: 15px;
-  border: 0;
-}
-
-.social-footer{
-  color: #fff;
-  padding: 15px;
-  font-size: 20px;
-  transition: 0.5s;
-}
-
-.social-footer:hover{
-  color:#000;
 }
 
 

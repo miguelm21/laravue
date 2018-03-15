@@ -1,0 +1,43 @@
+.btn-edit-login{
+    margin-top: 4px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #FFF !important;
+    transition: .3s;
+    border-radius: 20px;
+    padding: 5px 35px;
+
+    &:hover {
+        background: #fff;
+        border-color: #2cb5e8;
+        color: #2cb5e8 !important;
+    }
+  
+}
+
+.nav {
+    &-config {
+        background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+
+        @include respond(tab-port) {
+            padding: 8px 8%;
+        }
+    }
+
+    &-link {
+        color: #fff !important;
+    }
+}
+
+  
+.navbar-toggler{
+    color: #fff;
+}
+  
+.searh-navbar{
+    width: 30%;
+
+    @include respond(phone) {
+        width: 75%;
+    }
+}
