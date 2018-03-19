@@ -9,6 +9,8 @@
 
 @yield('content')
 
+@include('partials.modal')
+
 <footer class="footer-edit">
 	@include('partials.footer')
 </footer>
