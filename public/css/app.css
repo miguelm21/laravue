@@ -10026,6 +10026,7 @@ input.empty {
   padding-left: 0 !important;
 }
 
+
 .btn-edit-blue {
   color: #fff;
   background: #2CB5E8;
@@ -10225,7 +10226,7 @@ input.empty {
 }
 
 .edit-section {
-  margin: 5% auto;
+  margin: 3% auto;
   padding: 0px 5%;
 }
 
@@ -10234,9 +10235,9 @@ input.empty {
 .circle {
   position: relative;
   display: inline-block;
-  width: 100%;
+  width: 95%;
   height: 0;
-  padding: 50% 0;
+  padding: 45% 0;
   border-radius: 50%;
   /* Just making it pretty */
   background: #38a9e4;
@@ -10251,18 +10252,21 @@ input.empty {
 
 #blue {
   background-color: #4267b2;
+  color: #fff;
   -webkit-box-shadow: 2px 2px 2px #cfcfcf;
           box-shadow: 2px 2px 2px #cfcfcf;
 }
 
 #green {
   background-color: #a1bc31;
+  color: #fff;
   -webkit-box-shadow: 2px 2px 2px #cfcfcf;
           box-shadow: 2px 2px 2px #cfcfcf;
 }
 
 #purple {
   background: #c27ba0;
+  color: #fff;
   -webkit-box-shadow: 2px 2px 2px #cfcfcf;
           box-shadow: 2px 2px 2px #cfcfcf;
 }
@@ -10293,6 +10297,9 @@ input.empty {
   height: 300px;
 }
 
+.img-height{
+  height: 170px;
+}
 @media only screen and (max-width: 37.5em) {
   .size {
     height: 220px;
@@ -10301,6 +10308,15 @@ input.empty {
 
 .edit-carousel {
   height: 300px;
+}
+
+.img-profile{
+  max-width: 60%;
+}
+
+.back-img{
+  width: 70px;
+  height: 70px
 }
 
 @media only screen and (max-width: 56.25em) {

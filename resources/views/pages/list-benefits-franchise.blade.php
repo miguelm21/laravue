@@ -27,7 +27,7 @@
 						      <h5 class="card-title">Card title</h5>
 						      <p class="card-text box-description2">This is a wider card asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdwith supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 						      <div class="card-footer2 bg-transparent text-right">
-							      <small class="text-muted"><a href="#" class="btn btn-primary text-right">Read More</a></small>
+							      <small class="text-muted"><a href="#" class="btn btn-primary text-right"  data-toggle="modal" data-target="#exampleModal">Read More</a></small>
 							    </div>
 						    </div>
 						</div>
@@ -43,7 +43,7 @@
 						      <h5 class="card-title">Card title</h5>
 						      <p class="card-text box-description2">This is a wider card asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdwith supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 						      <div class="card-footer2 bg-transparent text-right">
-							      <small class="text-muted"><a href="#" class="btn btn-primary text-right">Read More</a></small>
+							      <small class="text-muted"><a href="#" class="btn btn-primary text-right"  data-toggle="modal" data-target="#exampleModal">Read More</a></small>
 							    </div>
 						    </div>
 						</div>
@@ -59,7 +59,7 @@
 						      <h5 class="card-title">Card title</h5>
 						      <p class="card-text box-description2">This is a wider card asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdwith supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 						      <div class="card-footer2 bg-transparent text-right">
-							      <small class="text-muted"><a href="#" class="btn btn-primary text-right">Read More</a></small>
+							      <small class="text-muted"><a href="#" class="btn btn-primary text-right"  data-toggle="modal" data-target="#exampleModal">Read More</a></small>
 							    </div>
 						    </div>
 						</div>

@@ -3,7 +3,16 @@
 @section('content')
 <div class="container">
 	<div class="row">
-		<div class="col-lg-3 col-sm-3 col-12 nopadding edit-section">
+		<div class="col-12">
+			<div class="logo text-right">
+				<a href="">
+					<img src="img/Penguins.jpg" width="100px" height="100px" class="back-img my-4" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-3 col-sm-3 col-12 nopadding">
 			<div class="row m-0">
 				<div class="border-closest p-1">
 					<div class="col-12 my-3">
@@ -74,10 +83,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-9 col-sm-9 col-12 edit-section border-closest2 p-2">
+		<div class="col-lg-9 col-sm-9 col-12 border-closest2 p-3 mb-4">
 			<div class="container">
 				<div class="row">
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">
@@ -87,7 +96,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">
@@ -97,7 +106,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">
@@ -107,9 +116,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">
@@ -119,7 +126,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">
@@ -129,7 +136,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">
@@ -139,9 +146,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">
@@ -151,7 +156,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">
@@ -161,7 +166,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 my-2">
+					<div class="col-6 col-lg-4 my-2">
 						<div class="card">
 							<img class="card-img-top" src="img/Koala.jpg" alt="Card image cap">
 							<div class="card-body">

@@ -3,17 +3,25 @@
 @section('content')
 <div class="container">
 	<div class="row">
-		<div class="col-lg-3 col-12 nopadding edit-section">
+		<div class="col-12">
+			<div class="logo text-right">
+				<a href="">
+					<img src="img/Penguins.jpg" width="100px" height="100px" class="back-img mt-4" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-3 col-md-4 col-12 nopadding edit-section">
 			<div class="row m-0">
 				<div class="box-panel-admin">
-					<div class="col-12">
-						<div class="box-img">
+					<div class="col-12 nopadding">
+						<div class="text-center">
 							<a href="">
-								<img src="img/Penguins.jpg" alt="" class="img-profile">
+								<img src="img/Penguins.jpg" alt="" class="img-profile m-2">
 							</a>
 						</div>
 					</div>
-					<hr class="hr">
 					<div class="col-12">
 						<div class="box-admin">
 							<label><b>Datos personales:</b></label>
@@ -33,49 +41,40 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-9 col-12">
+		<div class="col-lg-9 col-md-8 col-12">
 			<div class="edit-section">
-				<div class="row">
-					<div class="col-12 ">
-						<div class="logo text-right">
-							<a href="">
-								<img src="img/Penguins.jpg" width="100px" height="100px" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
 							<div class="row mt-5">
-								<div class="col-lg-4 col-md-4 col-12  my-1 text-center">
+								<div class="col-lg-4 col-md-4 col-12 nopadding">
 									<a href=" circle-buttom">	
 										<div class="circle d-none d-md-block d-lg-block" id="blue">
 											<h5>Beneficios activos</h5>
 										</div>
 									</a>
 									<div class="d-block d-sm-none d-sm-block d-md-none">
-										<a href="" class="btn btn-block btn-edit-blue" id="blue">Beneficios activos</a>
+										<a href="" class="btn btn-block my-1" id="blue">Beneficios activos</a>
 									</div>
 								</div>
-								<a href=" circle-buttom">
-									<div class="col-lg-4 col-md-4 col-12  my-1">
+								<div class="col-lg-4 col-md-4 col-12 nopadding">
+									<a href=" circle-buttom">
 										<div class="circle d-none d-md-block d-lg-block" id="green">
 											<h5>Cupones utilizados</h5>
 										</div>
 									</a>
 									<div class="d-block d-sm-none d-sm-block d-md-none">
-										<a href="" class="btn btn-block btn-edit-blue" id="green">Cupones utilizados</a>
+										<a href="" class="btn btn-block my-1" id="green">Cupones utilizados</a>
 									</div>
 								</div>
-								<a href=" circle-buttom">
-									<div class="col-lg-4 col-md-4 col-12  my-1">
+								<div class="col-lg-4 col-md-4 col-12 nopadding">
+									<a href=" circle-buttom">
 										<div class="circle d-none d-md-block d-lg-block" id="purple">
 											<h5>Usuarios registrados</h5>
 										</div>
 									</a>
 									<div class="d-block d-sm-none d-sm-block d-md-none">
-										<a href="" class="btn btn-block btn-edit-blue" id="purple">Usuarios registrados</a>
+										<a href="" class="btn btn-block my-1" id="purple">Usuarios registrados</a>
 									</div>
 								</div>
 							</div>
