@@ -1,38 +1,29 @@
 @extends('template')
 
 @section('content')
-	<!-- Carousel-->
-	<div class="container">
+	<!-- Hero -->
+	<div class="container-fluid">
 		<div class="hero-section">
 			<div class="hero-section-text">
-				<h1>Titulo</h1>
-				<h5>Subtitulo</h5>
+				<h1>club uno</h1>
+				<h5>Expertos en OCIO, pedi tu tarjeta ya.</h5>
 			</div>
 		</div>
 	</div>
 
+	<!-- Section title -->
+	<div class="container-fluid">
+		<h1 class="section__title">Los mas Populares</h1>
+		<hr class="section__title-separator">
+	</div>
 	<!-- Main -->
-	<div class="container mt-5">
+	<div class="content__ranking container-fluid mt-5">
 		<div class="box-index">
 			<div class="row">
-				<div class="col-lg-2 col-6 text-center mt-2">
+				<div class="col-sm-4 col-lg-2 col-6 text-center mt-2">
 					<div class="card">
-						<h4 class="my-3">Categoria 1</h4>
-						<hr>
-						<span>Beneficios</span>
-						<hr>
-						<span>Beneficios</span>
-						<hr>
-						<span>Beneficios</span>
-						<hr>
-						<span>Beneficios</span>
-						<hr>
-						<a href="" data-toggle="modal" data-target="#exampleModal" class="mb-3">Ver más</a>
-					</div>
-				</div>
-				<div class="col-lg-2 col-6 text-center mt-2">
-					<div class="card">
-						<h4 class="mt-4">Categoria 2</h4>
+						<i class="fas fa-utensils fa-6x"></i>
+						<h4 class="mt-4">GASTRONOMIA</h4>
 						<hr>
 						<span>Beneficios</span>
 						<hr>
@@ -45,9 +36,10 @@
 						<a href="" data-toggle="modal" data-target="#exampleModal" class="mb-3">Ver más...</a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-6 text-center mt-2">
+				<div class="col-sm-4 col-lg-2 col-6 text-center mt-2">
 					<div class="card">
-						<h4 class="mt-4">Categoria 3</h4>
+					<i class="fas fa-film fa-6x"></i>
+						<h4 class="mt-4">ENTRETENIMIENTO</h4>
 						<hr>
 						<span>Beneficios</span>
 						<hr>
@@ -60,9 +52,10 @@
 						<a href="" data-toggle="modal" data-target="#exampleModal" class="mb-3">Ver más...</a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-6 text-center mt-2">
+				<div class="col-sm-4 col-lg-2 col-6 text-center mt-2">
 					<div class="card">
-						<h4 class="mt-4">Categoria 4</h4>
+					<i class="fas fa-plane fa-6x"></i>
+						<h4 class="mt-4">TURISMO</h4>
 						<hr>
 						<span>Beneficios</span>
 						<hr>
@@ -75,9 +68,10 @@
 						<a href="" data-toggle="modal" data-target="#exampleModal" class="mb-3">Ver más...</a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-6 text-center mt-2">
+				<div class="col-sm-4 col-lg-2 col-6 text-center mt-2">
 					<div class="card">
-						<h4 class="mt-4">Categoria 5</h4>
+					<i class="fas fa-cut fa-6x"></i>
+						<h4 class="mt-4">MODA</h4>
 						<hr>
 						<span>Beneficios</span>
 						<hr>
@@ -90,9 +84,26 @@
 						<a href="" data-toggle="modal" data-target="#exampleModal" class="mb-3">Ver más...</a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-6 text-center mt-2">
+				<div class="col-sm-4 col-lg-2 col-6 text-center mt-2">
 					<div class="card">
-						<h4 class="mt-4">Categoria 6</h4>
+					<i class="fas fa-female fa-6x"></i>
+						<h4 class="mt-4">BELLEZA</h4>
+						<hr>
+						<span>Beneficios</span>
+						<hr>
+						<span>Beneficios</span>
+						<hr>
+						<span>Beneficios</span>
+						<hr>
+						<span>Beneficios</span>
+						<hr>
+						<a href="" data-toggle="modal" data-target="#exampleModal" class="mb-3">Ver más...</a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-lg-2 col-6 text-center mt-2">
+					<div class="card">
+					<i class="fas fa-home fa-6x"></i>
+						<h4 class="mt-4">DECO Y HOGAR</h4>
 						<hr>
 						<span>Beneficios</span>
 						<hr>
@@ -109,14 +120,15 @@
 		</div>
 	</div>
 
+	<!-- Section title -->
+	<div class="container-fluid">
+		<h1 class="section__title">Los mas Buscados</h1>
+		<hr class="section__title-separator">
+	</div>
 	<!-- Most searched sites -->
-	<div class="container mt-4">
-		<div class="row">
-			<div class="col-12">
-				<h3 class="text-center">Sitios mas buscados</h3>
-			</div>
-		</div>
-		<div class="carousel-container mt-3">
+	<div class="container-fluid mt-4">
+		
+		<div class="carousel-container mt-5">
 			<div id="slider-carousel" class="owl-carousel">
 				<div class="item item-edit">
 					<a class="hoverfx" href="#">

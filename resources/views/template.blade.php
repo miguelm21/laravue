@@ -11,7 +11,7 @@
 
 @include('partials.modal')
 
-<footer class="footer-edit">
+<footer class="footer clearfix">
 	@include('partials.footer')
 </footer>
 
